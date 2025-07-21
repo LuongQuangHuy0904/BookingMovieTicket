@@ -1,0 +1,309 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyễn Văn A",
+      "email": "manager@gmail.com",
+      "password": "123456",
+      "role": "manager"
+    },
+    {
+      "id": "2",
+      "name": "Nguyễn Văn B",
+      "email": "guest@gmail.com",
+      "password": "123456",
+      "role": "guest"
+    },
+    {
+      "id": "4",
+      "name": "uydev",
+      "email": "hehe@gmail.com",
+      "password": "123456",
+      "role": "guest"
+    },
+    {
+      "id": "6",
+      "name": "uydev",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "role": "guest"
+    },
+    {
+      "id": "6",
+      "email": "zz@gmail.com",
+      "name": "sekai",
+      "password": "$2a$10$2KUD4iI9YE8hE1c13YExOebSlI.rWy4TCW7jJpnDRclwgeRKugJuu",
+      "role": "guest"
+    },
+    {
+      "id": "9",
+      "email": "locvv@gmail.com",
+      "name": "locvv",
+      "password": "$2a$10$kc7VgenG3Bei3szoD5M8Del0EhfbUNCQZccZag6DIZbceRUzeQzhm",
+      "role": "guest"
+    },
+    {
+      "id": "10",
+      "email": "a",
+      "name": "vanhleg697111@gmail.com",
+      "password": "$2a$10$9ZRRmaDB6dx25CjRxdvtsexOPtNOsqhqVaoqVnr3C5xICGwtrocQS",
+      "role": "manager"
+    },
+    {
+      "id": "13",
+      "email": "b@gmail.com",
+      "name": "c",
+      "password": "$2a$10$wG6ktYLGr8r4Jei4I.BELefD7S02jKRXS96lWsashxJMIowJQhNFW",
+      "role": "guest"
+    },
+    {
+      "id": "1752939293554",
+      "email": "q@gmail.com",
+      "name": "q",
+      "password": "$2a$10$njeZAC8RkWJK7kSQcR8g0.wR8ZKE1agqSPLPHXtQ0/G5FbC5.Wan2",
+      "role": "guest"
+    },
+    {
+      "id": "1752941308051",
+      "email": "f@gmail.com",
+      "name": "f",
+      "password": "$2a$10$le6F31Hmru3acUeoGQcUueqWkG6TqxDSCl2bK3DFo4kPg/Izs0rJi",
+      "role": "guest"
+    },
+    {
+      "id": "1753085101058",
+      "email": "c@gmail.com",
+      "name": "c",
+      "password": "$2a$10$ZbwzRBoH55SYUBgFFBoXZ.Vb1ddzrwudnR.1yqBbF2hPJw/RR8lqu",
+      "role": "guest"
+    },
+    {
+      "email": "quanghaihuy2013@gmail.com",
+      "name": "123f",
+      "password": "$2a$10$0LqxdaeUKG46ra/iFauU.u0Bjab600WDlHMUpV/EKXW49Xk6PBxgu",
+      "id": "1753086187488",
+      "role": "guest"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "name": "The Shawshank Redemption",
+      "year": "1994",
+      "director": "Frank Darabont",
+      "genre": "Drama",
+      "imageUrl": "https://play-lh.googleusercontent.com/VPQQg8y0oTqnBk7NPdklj7P_dOmfk5K7dheS3LSAEXNuh-CeP8yLXeqxeoLYxlbVdov3LQRh51WCLMbtpcLI=w240-h480-rw",
+      "price": 120000,
+      "showtimes": [
+        "10:00",
+        "14:00",
+        "18:02",
+        "22:00"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "The Godfather",
+      "year": "1972",
+      "director": "Francis Ford Coppola",
+      "genre": "Crime",
+      "imageUrl": "https://play-lh.googleusercontent.com/ZucjGxDqQ-cHIN-8YA1HgZx7dFhXkfnz73SrdRPmOOHEax08sngqZMR_jMKq0sZuv5P7-T2Z2aHJ1uGQiys",
+      "price": 120000,
+      "showtimes": [
+        "10:00",
+        "14:00",
+        "18:00",
+        "22:00"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "The Dark Knight",
+      "year": "2008",
+      "director": "Christopher Nolan",
+      "genre": "Action",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+      "price": 120000,
+      "showtimes": [
+        "10:00",
+        "14:00",
+        "18:00",
+        "22:00"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Pulp Fiction",
+      "year": "1994",
+      "director": "Quentin Tarantino",
+      "genre": "Crime",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_.jpg",
+      "price": 120000,
+      "showtimes": [
+        "10:00",
+        "14:00",
+        "18:00",
+        "22:00"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "The Lord of the Rings: The Return of the King",
+      "year": "2003",
+      "director": "Peter Jackson",
+      "genre": "Fantasy",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "price": 120000,
+      "showtimes": [
+        "10:00",
+        "14:00",
+        "18:00",
+        "22:00"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Forrest Gump",
+      "year": "1994",
+      "director": "Robert Zemeckis",
+      "genre": "Drama",
+      "imageUrl": "data:image/jpeg;base64,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",
+      "price": 120000,
+      "showtimes": [
+        "10:00",
+        "14:00",
+        "18:00",
+        "22:00"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Inception",
+      "year": "2010",
+      "director": "Christopher Nolan",
+      "genre": "Sci-Fi",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "price": 120000,
+      "showtimes": [
+        "10:00",
+        "14:00",
+        "18:00",
+        "22:00"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Fight Club",
+      "year": "1999",
+      "director": "David Fincher",
+      "genre": "Drama",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "price": 120000,
+      "showtimes": [
+        "10:00",
+        "14:00",
+        "18:00",
+        "22:00"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "The Matrix",
+      "year": "1999",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "genre": "Sci-Fi",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "price": 120000,
+      "showtimes": [
+        "10:00",
+        "14:00",
+        "18:00",
+        "22:00"
+      ]
+    },
+    {
+      "id": "952",
+      "name": "Moana",
+      "year": "2022",
+      "director": "Disney",
+      "genre": "Comedy",
+      "imageUrl": "https://cdn-www.vinid.net/20102304-phim-hoat-hinh-chieu-rap-6.jpg",
+      "price": 42000,
+      "showtimes": [
+        "22:00",
+        "11:21",
+        "06:18"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "703",
+      "userId": "1752941308051",
+      "movieId": "4",
+      "bookingDate": "2025-08-01",
+      "bookingTime": "22:00",
+      "seats": "4",
+      "paymentStatus": "paid",
+      "totalPrice": 480000,
+      "paymentId": "PAY-1752941424921",
+      "paymentDate": "2025-07-19T16:10:24.921Z"
+    },
+    {
+      "id": "225",
+      "userId": "1752941308051",
+      "movieId": "952",
+      "bookingDate": "2025-07-25",
+      "bookingTime": "06:18",
+      "seats": "2",
+      "paymentStatus": "paid",
+      "totalPrice": 84000,
+      "paymentId": "PAY-1752941997181",
+      "paymentDate": "2025-07-19T16:19:57.181Z"
+    },
+    {
+      "id": "579",
+      "userId": "1753085101058",
+      "movieId": "952",
+      "bookingDate": "2025-07-23",
+      "bookingTime": "11:21",
+      "seats": "1",
+      "paymentStatus": "paid",
+      "totalPrice": 42000,
+      "paymentId": "PAY-1753085213563",
+      "paymentDate": "2025-07-21T08:06:53.563Z"
+    },
+    {
+      "id": "833",
+      "userId": "1753085101058",
+      "movieId": "6",
+      "bookingDate": "2025-07-24",
+      "bookingTime": "22:00",
+      "seats": "2",
+      "paymentStatus": "paid",
+      "totalPrice": 600000,
+      "paymentId": "PAY-1753085250683",
+      "paymentDate": "2025-07-21T08:07:30.683Z"
+    },
+    {
+      "id": "60",
+      "userId": "2",
+      "movieId": "4",
+      "bookingDate": "2025-07-23",
+      "bookingTime": "",
+      "seats": "2"
+    },
+    {
+      "userId": "1753086187488",
+      "movieId": "7",
+      "bookingDate": "2025-07-24",
+      "bookingTime": "10:00",
+      "seats": "1",
+      "paymentStatus": "paid",
+      "totalPrice": 120000,
+      "id": "901",
+      "paymentId": "PAY-1753086256430",
+      "paymentDate": "2025-07-21T08:24:16.430Z"
+    }
+  ]
+}
